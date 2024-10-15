@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "babel-node index.js",
+    "dev": "nodemon index.js --exec babel-node",
     "build": "babel src --out-dir public"
   },
   "keywords": [],
